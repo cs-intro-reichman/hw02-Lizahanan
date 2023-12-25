@@ -5,5 +5,15 @@
 public class Reverse {
 	public static void main (String[] args){
 		//// Put your code here
+		String s = args[0];
+		for (int j=s.length(); j>=0;--j)
+		{
+			System.out.println(s.charAt(j-1));
+		}
+		}
+		
 	}
-}
+		
+	
+
+
