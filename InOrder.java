@@ -1,7 +1,3 @@
-/**
- *  Generates and prints random integers in the range [0,10),
- *  as long as they form a non-decreasing sequence.
- */
 public class InOrder {
 	public static void main (String[] args) {
 		//// Write your code here
@@ -14,9 +10,7 @@ public class InOrder {
 		 if (b>=a) 
 		 System.out.print(b + " ");
 		 else break;
-		 if (a>=b)
-		 System.out.print(a + " ");
-		 else break;
+		a=b;
 	} while (true);
     
 }
