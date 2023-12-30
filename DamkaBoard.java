@@ -17,19 +17,13 @@ public class DamkaBoard {
 				System.out.print("* ");
 		//on odd lines prints straight away
 			}
-			x=x+1; //adds *
+			x=x+1;
 		} System.out.println();
 		//prints space between lines
-		line = line + 1; //adds next line
+		line = line + 1;
 	   }
 
 		}
 
 		
 	}
-
-
-
-		
-	}
-}
