@@ -3,6 +3,22 @@
  */
 public class Perfect {
 	public static void main (String[] args) {
-		//// Put your code here
+		int n = Integer.parseInt(args[0]);
+		int sum = 1;
+		String perfectnum = n + " is a perfect number since " + n + " = 1";
+		//initial string 
+
+		for (int i = 2; i < n; i++) {
+			if (n % i ==0){ //if number divides by i with no remainder we add it
+				sum += i;
+				perfectnum = perfectnum + " + " + i;
+			}
+		}
+		if (sum==n){
+			System.out.print(perfectnum);
+		}
+		else {
+			System.out.println(n + " is not a perfect number");
+		}
 	}
 }
