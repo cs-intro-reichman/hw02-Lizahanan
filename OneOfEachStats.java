@@ -6,7 +6,7 @@ public class OneOfEachStats {
     int T = Integer.parseInt(args[0]);
     int seed = Integer.parseInt(args[1]);
     Random generator = new Random(seed);
-    int ChildSumCount = 0;
+    int childSumCount = 0;
     int twochildlren = 0;
     int threechildren = 0;
     int fourplus = 0;
@@ -24,7 +24,7 @@ public class OneOfEachStats {
                 girl = true;
 
             }
-            ChildSumCount++;
+            childSumCount++;
             childrenPerFamily++;
 
         } 
